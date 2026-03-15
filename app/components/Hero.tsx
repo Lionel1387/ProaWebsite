@@ -26,7 +26,7 @@ const Hero = ({
   ];
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-20">
       {/* Background con gradiente animado */}
       <div className="absolute inset-0 hero-gradient z-0" />
       
@@ -69,19 +69,21 @@ const Hero = ({
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
-            className="inline-block mb-6 relative z-0"
-          >
-            <div className="bg-azul-electrico/20 backdrop-blur-sm border border-azul-electrico/30 rounded-full px-4 py-2">
-              <span className="text-azul-brillante text-sm font-semibold">
-                🚀 Programa Escuelas ProA
-              </span>
-            </div>
-          </motion.div>
+          {/* Badge - Solo mostrar en página principal */}
+          {showButtons === true && (
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+              className="inline-block mb-6 relative z-0"
+            >
+              <div className="bg-azul-electrico/20 backdrop-blur-sm border border-azul-electrico/30 rounded-full px-4 py-2">
+                <span className="text-azul-brillante text-sm font-semibold">
+                  🚀 Programa Escuelas ProA
+                </span>
+              </div>
+            </motion.div>
+          )}
 
           {/* Título principal */}
           <motion.h1
@@ -143,7 +145,7 @@ const Hero = ({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9, duration: 0.6 }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 max-w-4xl mx-auto"
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 max-w-4xl mx-auto"
           >
             {[
               { icon: Code2, title: 'Programación', desc: 'Aprendizaje práctico de lenguajes modernos' },
@@ -169,7 +171,7 @@ const Hero = ({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.6 }}
-        className="absolute bottom-16 left-1/2 transform -translate-x-1/2 z-40"
+        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-40"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}

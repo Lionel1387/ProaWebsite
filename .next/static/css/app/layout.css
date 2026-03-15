@@ -580,8 +580,8 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
-.pointer-events-none{
-  pointer-events: none;
+.static{
+  position: static;
 }
 .fixed{
   position: fixed;
@@ -601,8 +601,8 @@ video {
 .bottom-0{
   bottom: 0px;
 }
-.bottom-8{
-  bottom: 2rem;
+.bottom-24{
+  bottom: 6rem;
 }
 .left-0{
   left: 0px;
@@ -625,17 +625,29 @@ video {
 .top-3{
   top: 0.75rem;
 }
+.bottom-12{
+  bottom: 3rem;
+}
+.bottom-8{
+  bottom: 2rem;
+}
+.bottom-4{
+  bottom: 1rem;
+}
+.z-0{
+  z-index: 0;
+}
 .z-10{
   z-index: 10;
 }
 .z-20{
   z-index: 20;
 }
+.z-40{
+  z-index: 40;
+}
 .z-50{
   z-index: 50;
-}
-.z-0{
-  z-index: 0;
 }
 .mx-auto{
   margin-left: auto;
@@ -1293,11 +1305,14 @@ video {
 .pr-8{
   padding-right: 2rem;
 }
-.pt-16{
-  padding-top: 4rem;
+.pt-32{
+  padding-top: 8rem;
 }
 .pt-8{
   padding-top: 2rem;
+}
+.pt-20{
+  padding-top: 5rem;
 }
 .text-left{
   text-align: left;

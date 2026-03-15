@@ -26,7 +26,7 @@ const Hero = ({
   ];
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32">
       {/* Background con gradiente animado */}
       <div className="absolute inset-0 hero-gradient z-0" />
       
@@ -169,7 +169,7 @@ const Hero = ({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.6 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-40"
+        className="absolute bottom-16 left-1/2 transform -translate-x-1/2 z-40"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}

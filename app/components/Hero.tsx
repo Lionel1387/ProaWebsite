@@ -12,7 +12,7 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "ESCUELA TÉCNICA PROA",
+  title = "Proa Rebeca Guber",
   subtitle = "Bachiller con Orientación en Desarrollo de Software",
   description = "Formamos los desarrolladores del futuro con educación técnica de excelencia. Programa Escuelas ProA en Barrio San Vicente, Córdoba.",
   showButtons = true,
@@ -26,7 +26,7 @@ const Hero = ({
   ];
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background con gradiente animado */}
       <div className="absolute inset-0 hero-gradient" />
       
@@ -169,7 +169,7 @@ const Hero = ({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.6 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-0 pointer-events-none"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}

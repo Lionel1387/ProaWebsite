@@ -49,7 +49,7 @@ const Navbar = () => {
             </motion.div>
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-white">PROA</h1>
-              <p className="text-xs text-azul-brillante">Escuela Técnica</p>
+              <p className="text-xs text-azul-brillante">Proa Rebeca Guber</p>
             </div>
           </Link>
 

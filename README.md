@@ -1,10 +1,10 @@
-# 🚀 Escuela Técnica PROA - Sitio Web Institucional
+# 🚀 Proa Rebeca Guber - Sitio Web Institucional
 
-Un sitio web moderno y tecnológico para la Escuela Técnica PROA, especializada en Desarrollo de Software. Construido con Next.js, TypeScript y TailwindCSS, featuring un sistema completo de noticias administrable.
+Un sitio web moderno y tecnológico para Proa Rebeca Guber, especializada en Desarrollo de Software. Construido con Next.js, TypeScript y TailwindCSS, featuring un sistema completo de noticias administrable.
 
 ## 📋 Descripción del Proyecto
 
-Este proyecto es un sitio web institucional completo para una escuela técnica del programa Escuelas ProA ubicada en Barrio San Vicente, Córdoba. La escuela ofrece el título de Bachiller con Orientación en Desarrollo de Software, y el sitio refleja esta identidad tecnológica y profesional.
+Este proyecto es un sitio web institucional completo para Proa Rebeca Guber del programa Escuelas ProA ubicada en Barrio San Vicente, Córdoba. La escuela ofrece el título de Bachiller con Orientación en Desarrollo de Software, y el sitio refleja esta identidad tecnológica y profesional.
 
 ### 🎯 Objetivos Principales
 
@@ -402,7 +402,7 @@ yarn lint
 
 ## 📄 Licencia
 
-Este proyecto es propiedad de la Escuela Técnica PROA. Todos los derechos reservados.
+Este proyecto es propiedad de Proa Rebeca Guber. Todos los derechos reservados.
 
 ## 🤝 Contribución
 
@@ -424,7 +424,7 @@ Para soporte técnico o preguntas sobre el proyecto:
 
 ## 🎓 Información Educativa
 
-Este proyecto fue desarrollado como parte del programa educativo de la Escuela Técnica PROA, demostrando las habilidades adquiridas en:
+Este proyecto fue desarrollado como parte del programa educativo de Proa Rebeca Guber, demostrando las habilidades adquiridas en:
 
 - Desarrollo Web Full Stack
 - Diseño UI/UX
@@ -434,7 +434,7 @@ Este proyecto fue desarrollado como parte del programa educativo de la Escuela T
 
 ---
 
-**Escuela Técnica PROA**  
+**Proa Rebeca Guber**  
 *Formando los desarrolladores del futuro*  
 📍 Agustín Garzón 1221, Barrio San Vicente, Córdoba  
 🌐 www.escuelaproa.edu.ar

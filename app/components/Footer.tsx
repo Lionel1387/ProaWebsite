@@ -55,7 +55,7 @@ const Footer = () => {
               </motion.div>
               <div>
                 <h3 className="text-xl font-bold text-white">PROA</h3>
-                <p className="text-sm text-azul-brillante">Escuela Técnica</p>
+                <p className="text-sm text-azul-brillante">Proa Rebeca Guber</p>
               </div>
             </div>
             <p className="text-gray-400 mb-4 leading-relaxed">
@@ -149,7 +149,7 @@ const Footer = () => {
               transition={{ duration: 0.5 }}
               className="text-gray-400 text-sm"
             >
-              © {currentYear} Escuela Técnica PROA. Todos los derechos reservados.
+              © {currentYear} Proa Rebeca Guber. Todos los derechos reservados.
             </motion.div>
 
             {/* Social Links */}

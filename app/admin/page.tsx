@@ -154,7 +154,7 @@ const AdminDashboard = () => {
               </motion.div>
               <div>
                 <h1 className="text-xl font-bold text-white">Panel Administrador</h1>
-                <p className="text-xs text-azul-brillante">PROA Escuela Técnica</p>
+                <p className="text-xs text-azul-brillante">Proa Rebeca Guber</p>
               </div>
             </div>
             

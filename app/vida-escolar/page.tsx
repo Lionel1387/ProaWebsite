@@ -1,10 +1,23 @@
 'use client';
 
+import { Metadata } from 'next';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import { Calendar, Users, Trophy, Heart, Gamepad2, Music, Palette, BookOpen, Target, Star, MessageCircle } from 'lucide-react';
+
+// Metadatos SEO para esta página
+export const metadata: Metadata = {
+  title: 'Vida Escolar | Proa Rebeca Guber',
+  description: 'Descubre la vida escolar en Proa Rebeca Guber. Eventos, talleres, deportes y actividades extracurriculares que complementan tu formación.',
+  keywords: 'vida escolar, actividades escolares, talleres, deportes, eventos escolares, convivencia escolar',
+  openGraph: {
+    title: 'Vida Escolar | Proa Rebeca Guber',
+    description: 'Experiencias completas de crecimiento y comunidad',
+    url: '/vida-escolar',
+  },
+};
 
 const VidaEscolarPage = () => {
   const events = [

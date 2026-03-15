@@ -1,10 +1,23 @@
 'use client';
 
+import { Metadata } from 'next';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import { Code2, Target, Award, BookOpen, Rocket, Users, Zap, TrendingUp, CheckCircle } from 'lucide-react';
+
+// Metadatos SEO para esta página
+export const metadata: Metadata = {
+  title: 'Formación en Desarrollo de Software | Proa Rebeca Guber',
+  description: 'Conoce nuestro programa integral de 5 años para formarte como desarrollador de software profesional. Curriculum completo, tecnologías modernas y práctica intensiva.',
+  keywords: 'formación desarrollo software, bachiller programación, curriculum programación, aprender a programar Córdoba, escuela software',
+  openGraph: {
+    title: 'Formación en Desarrollo de Software | Proa Rebeca Guber',
+    description: 'Programa integral de 5 años para desarrolladores profesionales',
+    url: '/formacion',
+  },
+};
 
 const FormacionPage = () => {
   const curriculum = [

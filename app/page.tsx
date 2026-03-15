@@ -79,7 +79,7 @@ const HomePage = () => {
               Bienvenidos al <span className="texto-degradado">Futuro Tecnológico</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              En la Escuela Técnica PROA formamos los próximos líderes del mundo digital. 
+              En Proa Rebeca Guber formamos los próximos líderes del mundo digital. 
               Nuestro programa intensivo de Desarrollo de Software combina teoría avanzada 
               con práctica constante, preparándote para los desafíos reales de la industria.
             </p>

@@ -1,10 +1,23 @@
 'use client';
 
+import { Metadata } from 'next';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import { Users, Award, BookOpen, Target, MapPin, Clock, Star, MessageCircle, Calendar } from 'lucide-react';
+
+// Metadatos SEO para esta página
+export const metadata: Metadata = {
+  title: 'Conoce Proa Rebeca Guber | Nuestra Institución',
+  description: 'Descubre la historia, misión y valores de Proa Rebeca Guber. Una institución educativa de vanguardia en formación de desarrolladores de software.',
+  keywords: 'Proa Rebeca Guber, escuela programación Córdoba, institución educativa, historia escuela, misión valores',
+  openGraph: {
+    title: 'Conoce Proa Rebeca Guber | Nuestra Institución',
+    description: 'Una institución educativa de vanguardia en desarrollo de software',
+    url: '/la-escuela',
+  },
+};
 
 const LaEscuelaPage = () => {
   const teamMembers = [
@@ -103,7 +116,7 @@ const LaEscuelaPage = () => {
       <Hero
         title="LA ESCUELA"
         subtitle="Conoce Nuestra Institución"
-        description="Una escuela técnica comprometida con la excelencia educativa y la formación de los profesionales del mañana."
+        description="Proa Rebeca Guber comprometida con la excelencia educativa y la formación de los profesionales del mañana."
         showButtons={false}
       />
 
@@ -123,7 +136,7 @@ const LaEscuelaPage = () => {
               </h2>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  La Escuela Técnica PROA es una institución educativa de vanguardia dedicada a la formación 
+                  Proa Rebeca Guber es una institución educativa de vanguardia dedicada a la formación 
                   de desarrolladores de software de alto nivel. Formamos parte del programa Escuelas ProA, 
                   una iniciativa nacional que busca transformar la educación técnica en Argentina.
                 </p>

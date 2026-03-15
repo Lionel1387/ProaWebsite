@@ -28,10 +28,10 @@ const Hero = ({
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background con gradiente animado */}
-      <div className="absolute inset-0 hero-gradient" />
+      <div className="absolute inset-0 hero-gradient z-0" />
       
       {/* Grid tecnológico de fondo */}
-      <div className="absolute inset-0 grid-tecnologico opacity-20" />
+      <div className="absolute inset-0 grid-tecnologico opacity-20 z-0" />
       
       {/* Partículas flotantes */}
       <div className="absolute inset-0">
@@ -63,7 +63,7 @@ const Hero = ({
       </div>
 
       {/* Contenido principal */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -74,7 +74,7 @@ const Hero = ({
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="inline-block mb-6"
+            className="inline-block mb-6 relative z-0"
           >
             <div className="bg-azul-electrico/20 backdrop-blur-sm border border-azul-electrico/30 rounded-full px-4 py-2">
               <span className="text-azul-brillante text-sm font-semibold">
@@ -169,7 +169,7 @@ const Hero = ({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.6 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-0 pointer-events-none"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-40"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}

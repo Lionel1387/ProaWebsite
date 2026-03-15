@@ -1,6 +1,5 @@
 'use client';
 
-import { Metadata } from 'next';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -9,18 +8,6 @@ import { motion } from 'framer-motion';
 import { Search, Calendar, Filter, TrendingUp, Clock } from 'lucide-react';
 import { databaseService } from '../lib/database';
 import { Noticia } from '../models/Noticia';
-
-// Metadatos SEO para esta página
-export const metadata: Metadata = {
-  title: 'Noticias | Proa Rebeca Guber',
-  description: 'Mantente informado sobre las últimas noticias de Proa Rebeca Guber. Eventos, logros, proyectos y actividades de nuestra comunidad educativa.',
-  keywords: 'noticias Proa Rebeca Guber, eventos escuela, logros estudiantes, proyectos educativos, novedades',
-  openGraph: {
-    title: 'Noticias | Proa Rebeca Guber',
-    description: 'Las últimas novedades de nuestra comunidad',
-    url: '/noticias',
-  },
-};
 import { useState, useEffect } from 'react';
 
 const NoticiasPage = () => {

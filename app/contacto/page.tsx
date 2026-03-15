@@ -1,23 +1,10 @@
 'use client';
 
-import { Metadata } from 'next';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Clock, Send, MessageSquare, User } from 'lucide-react';
-
-// Metadatos SEO para esta página
-export const metadata: Metadata = {
-  title: 'Contacto | Proa Rebeca Guber',
-  description: 'Contacta a Proa Rebeca Guber. Ubicados en Agustín Garzón 1221, Barrio San Vicente, Córdoba. Teléfono, email y formulario de contacto.',
-  keywords: 'contacto Proa Rebeca Guber, teléfono escuela, dirección Córdoba, email contacto, formulario contacto',
-  openGraph: {
-    title: 'Contacto | Proa Rebeca Guber',
-    description: 'Comunicate con nosotros para más información',
-    url: '/contacto',
-  },
-};
 
 const ContactoPage = () => {
   return (

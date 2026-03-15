@@ -1,23 +1,10 @@
 'use client';
 
-import { Metadata } from 'next';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import { Users, Award, BookOpen, Target, MapPin, Clock, Star, MessageCircle, Calendar } from 'lucide-react';
-
-// Metadatos SEO para esta página
-export const metadata: Metadata = {
-  title: 'Conoce Proa Rebeca Guber | Nuestra Institución',
-  description: 'Descubre la historia, misión y valores de Proa Rebeca Guber. Una institución educativa de vanguardia en formación de desarrolladores de software.',
-  keywords: 'Proa Rebeca Guber, escuela programación Córdoba, institución educativa, historia escuela, misión valores',
-  openGraph: {
-    title: 'Conoce Proa Rebeca Guber | Nuestra Institución',
-    description: 'Una institución educativa de vanguardia en desarrollo de software',
-    url: '/la-escuela',
-  },
-};
 
 const LaEscuelaPage = () => {
   const teamMembers = [

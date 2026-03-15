@@ -1,15 +1,5 @@
 {
   "headers": {
-    "x-nextjs-stale-time": "300",
-    "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/vida-escolar/layout,_N_T_/vida-escolar/page,_N_T_/vida-escolar"
-  },
-  "segmentPaths": [
-    "/_tree",
-    "/_full",
-    "/vida-escolar/__PAGE__",
-    "/vida-escolar",
-    "/_index",
-    "/_head"
-  ]
+  }
 }
